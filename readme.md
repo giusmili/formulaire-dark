@@ -2,7 +2,7 @@
 > **Comment créer un formulaire de contact**
 
 >*Exemple de structure html*
-```html
+```html=
 <fieldset>
      <legend>Remplir le formulaire</legend>
            <!--  https://www.google.com/search?q=html -->
@@ -36,6 +36,10 @@
 >**Langages utilisés**
 1. html
 2. css
- ![cover](./asset/undraw_exams_re_4ios.svg)
+
+
+---
+
+![cover](./asset/undraw_exams_re_4ios.svg)
 
 [![forthebadge](https://forthebadge.com/images/featured/featured-uses-html.svg)](https://forthebadge.com)

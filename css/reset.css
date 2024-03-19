@@ -1,12 +1,13 @@
 /* reset css */
 /* Element + attr + value */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 html {
   font-size: 62.5%; /* 16px * 62.5 = 10.00 */
 }
 
 /* prop générale pour mettre en forme la police de base  */
 body {
-  font: 1.6rem "Open Sans", sans-serif;
+  font: 1.6rem "Roboto Slab", sans-serif;
   font-optical-sizing: auto;
   letter-spacing: 0.1rem;
   line-height: 1.6;

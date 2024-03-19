@@ -40,6 +40,9 @@ header h1,
 footer p {
   text-align: center;
 }
+header h1{
+    line-height: 7.5rem;
+}
 .search-input, #submit{
     padding: .5rem;
     line-height: 4rem;

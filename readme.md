@@ -4,12 +4,12 @@
 >*Exemple de structure html*
 ```html
 <fieldset>
-            <legend>Remplir le formulaire</legend>
+     <legend>Remplir le formulaire</legend>
            <!--  https://www.google.com/search?q=html -->
 
 
-            <form action="https://www.google.com/search" method="get"><!--get and post-->
-                <label for="query">Recherche</label>
+        <form action="https://www.google.com/search" method="get"><!--get and post-->
+            <label for="query">Recherche</label>
                 <div class="wrapper" role="group" aria-describedby="search submit">
                     <div id="search" class="search-input">
                     <input 
@@ -23,13 +23,13 @@
                         
                     </div>  
                     <div id="submit">
-                        <button type="submit">
-                            Recherche
-                        </button>
-                    </div>
-             </div>
-            </form>
-        </fieldset>
+                    <button type="submit">
+                        Recherche
+                    </button>
+                 </div>
+            </div>
+    </form>
+</fieldset>
 
 
 ```

@@ -2,7 +2,7 @@
 > **Comment créer un formulaire de contact**
 
 >*Exemple de structure html*
-```html=
+```html
 <fieldset>
      <legend>Remplir le formulaire</legend>
            <!--  https://www.google.com/search?q=html -->

@@ -1,0 +1,54 @@
+/* theme css */
+@import url(./reset.css);
+:root {
+  --bg-color-main: #202124;
+  --bg-color-form: #303134;
+  --color-text: #fff;
+}
+body {
+  background-color: var(--bg-color-main);
+  color: var(--color-text);
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+}
+
+fieldset,
+aside {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+fieldset{
+    padding: 5rem;
+    border-radius: 1rem;
+    border: solid .1rem var(--bg-color-form);
+}
+aside {
+  padding: 5rem 0;
+  max-width: 50rem;
+}
+figure img {
+  width: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  
+}
+
+header h1,
+footer p {
+  text-align: center;
+}
+.search-input, #submit{
+    padding: .5rem;
+    line-height: 4rem;
+}
+.search-input input{
+    line-height: 4rem;
+    padding: 0 .8rem;
+    background-color: var(--bg-color-form);
+    color: var(--color-text);
+    border-radius: 1rem;
+    font-size: inherit;
+}
